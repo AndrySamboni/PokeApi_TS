@@ -1,4 +1,4 @@
-import './style.css';
+import './styles.css';
 import { getPokemon } from  './bases/interfaces/pokeAPi/Interfaz_pocke';
 import type { PokemonData } from './bases/interfaces/pokeAPi/Interfaz_pocke';
 
