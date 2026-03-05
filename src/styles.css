@@ -31,12 +31,21 @@ h1 {
 }
 
 .undiscovered img {
-    filter: brightness(23);
+  filter: grayscale(100%);
 }
 
 .undiscovered h3,
-.undiscovered p {
-    color: transparent;
-    background-color: #ccc;
-    border-radius: 4px;
+.undiscovered p,
+.undiscovered .type {
+  color: #aaa;
+  background-color: transparent;
+  border-radius: 0;
+}
+
+.discovered {
+  background-color: #f9f9f9;
+}
+
+.discovered img {
+  filter: grayscale(0%);
 }
